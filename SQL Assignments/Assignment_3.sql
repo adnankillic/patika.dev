@@ -12,7 +12,7 @@ WHERE country LIKE '______%n';
 -- 'T' karakteri içeren film isimlerini sıralayınız.
 
 SELECT title FROM film
-WHERE title LIKE '%t%t%t%t%';
+WHERE title ILIKE '%t%t%t%t%';
 
 -- 4. film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan 
 -- ve rental_rate 2.99 olan verileri sıralayınız.
